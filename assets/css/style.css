@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #141414;
 }
 
 /* to fix the search bar after clicking the search icon */
@@ -11,4 +12,10 @@ body {
 /* to fix the small margin left from the dropdown profile */
 nav .dropdown-toggle::after {
   content: none;
+}
+
+/* need to fix navbar-tv shows styling colours with js after completing everything */
+
+.gradient-profile-navbar {
+  background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
 }
