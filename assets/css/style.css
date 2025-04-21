@@ -19,3 +19,14 @@ nav .dropdown-toggle::after {
 .gradient-profile-navbar {
   background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
 }
+
+/* progress-bar */
+
+.progress {
+  width: 70%;
+  height: 5px;
+}
+
+.progress-bar {
+  width: 80%;
+}
